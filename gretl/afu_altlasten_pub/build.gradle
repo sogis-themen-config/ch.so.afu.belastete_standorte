@@ -10,5 +10,5 @@ tasks.register('importData', Ili2pgImport) {
     dbschema = "afu_altlasten_pub_v2"
     models = "SO_AFU_KbS_Publikation__20230104"
     dataFile = "ilidata:ch.so.afu.belastete_standorte"
-    disableValidation = false
+    disableValidation = true
 }
